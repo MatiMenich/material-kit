@@ -1,0 +1,48 @@
+{
+  "name": "material-kit",
+  "homepage": "http://www.creative-tim.com/product/material-kit",
+  "authors": [
+    "Creative Tim <hello@creative-tim.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timcreative/material-kit.git"
+  },
+  "description": "A Badass Bootstrap UI Kit based on Material Design",
+  "main": [
+    "assets/css/material-kit.css",
+    "assets/css/material-kit.css.map",
+    "assets/sass/*",
+    "assets/js/material-kit.js",
+    "assets/img/*"
+  ],
+  "keywords": [
+    "material",
+    "bootstrap",
+    "material-kit",
+    "material design",
+    "material ui",
+    "ui"
+  ],
+  "license": "./Creative\\ Tim\\ License.pdf",
+  "ignore": [
+    "**/.*",
+    "examples/"
+    "index.html",
+    "components-documentation.html",
+    "template.html",
+    "tutoral.html",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2",
+    "bootstrap": "~3.3.6",
+    "bootstrap-sass": "~3.3.6",
+    "bootstrap-datepicker": "~1.6.1",
+    "material-design-lite": "~1.1.3",
+    "nouislider": "~8.5.1"
+  }
+}
